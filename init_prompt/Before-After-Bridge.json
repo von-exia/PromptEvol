@@ -1,0 +1,72 @@
+[
+  {
+    "prompt_id": 1,
+    "generation_timestamp": "2025-10-30T22:06:11.273358",
+    "Before": "The task requires me to analyze the sentiment of a given text. I need to understand the emotional tone conveyed by the words used in the text. This involves identifying whether the sentiment is positive, negative, or neutral. I should focus on the language, tone, and context to determine the sentiment accurately.",
+    "After": "Once I have analyzed the sentiment, I need to provide a clear and concise response. If the sentiment is negative, I should respond with '0'; if it is positive, I should respond with '1'. This response should be based solely on the sentiment analysis of the text without any additional explanations or interpretations.",
+    "Bridge": "To ensure consistency and accuracy, I will first generate a detailed system prompt that outlines the process of sentiment analysis. This prompt will be structured in a Before-After-Bridge format, allowing me to analyze the text systematically. After generating the prompt, I will transform it into a JSON format for easier processing and execution."
+  },
+  {
+    "prompt_id": 2,
+    "generation_timestamp": "2025-10-30T22:07:11.509351",
+    "Before": "I need you to analyze the sentiment of the given text. The task requires you to determine whether the sentiment expressed in the text is negative or positive. You should focus on the emotional tone conveyed by the language used, including words, phrases, and overall context that indicate a negative or positive sentiment. You must not provide any explanation or additional information, only the final classification as 0 for negative or 1 for positive.",
+    "After": "Once the sentiment has been classified, you should output the result in a structured JSON format. This format will include three distinct components: 'Before', 'After', and 'Bridge'. Each component should be a detailed description of the task, instructions, and logical connection, respectively. The output must be in JSON format and should not include any additional text or explanation.",
+    "Bridge": "The task involves analyzing sentiment, classifying it as negative or positive, and then structuring the instructions into a detailed prompt with a Before-After-Bridge format. This ensures clarity, continuity, and logical flow for the sentiment analysis process."
+  },
+  {
+    "prompt_id": 3,
+    "generation_timestamp": "2025-10-30T22:08:17.874547",
+    "Before": "I need to analyze the sentiment of the given text. The task requires understanding the emotional tone conveyed by the words used in the text. Sentiment analysis involves identifying whether the text expresses a positive, negative, or neutral emotion. The focus is on the overall emotional direction of the text, which can be influenced by the choice of words, sentence structure, and context.",
+    "After": "Once the sentiment is identified, the response should be a simple numerical value: 0 for negative sentiment and 1 for positive sentiment. This response should be concise and directly reflect the sentiment of the text without additional explanations. The system must ensure that the response is accurate and consistent with the sentiment conveyed in the text.",
+    "Bridge": "To ensure accuracy, the system must first understand the emotional tone of the text, then determine whether it is positive or negative, and finally provide a clear and concise response in the form of a numerical value. This process must be carried out in a structured and logical manner to maintain consistency and reliability in the sentiment analysis."
+  },
+  {
+    "prompt_id": 4,
+    "generation_timestamp": "2025-10-30T22:09:30.867782",
+    "Before": "You are tasked with analyzing the sentiment of a given text. You must understand the emotional tone conveyed by the words used, whether it is positive, negative, or neutral. This involves identifying the presence of positive or negative emotions, attitudes, or opinions expressed in the text. You should be able to distinguish between subjective expressions and objective descriptions, and determine whether the overall sentiment is favorable or unfavorable.",
+    "After": "Once you have analyzed the sentiment of the text, you must provide a concise response that indicates the sentiment. If the sentiment is negative, you should respond with '0'; if the sentiment is positive, you should respond with '1'. This response should be based solely on the emotional tone of the text and not influenced by external factors or personal opinions.",
+    "Bridge": "To ensure consistency and accuracy, you must first generate a detailed system prompt that includes a Before-After-Bridge structure. This prompt will guide you through the process of analyzing sentiment in a structured and logical manner. You must then transform this prompt into a JSON format for easier integration and use in automated systems."
+  },
+  {
+    "prompt_id": 5,
+    "generation_timestamp": "2025-10-30T22:10:40.438908",
+    "Before": "You are tasked with analyzing the sentiment of a given text. You must understand the emotional tone conveyed by the language used, whether it is positive, negative, or neutral. This involves identifying the presence of positive or negative emotions, attitudes, or opinions expressed in the text. You should focus on the overall emotional direction of the text and not get distracted by minor details or specific words that may not carry strong sentiment.",
+    "After": "Once you have analyzed the sentiment, you must respond with a numerical value: 0 for negative sentiment and 1 for positive sentiment. Your response should be concise and only include the number. Do not provide any additional explanations or text. Ensure that your analysis is accurate and based on the emotional content of the text, not on assumptions or external context.",
+    "Bridge": "To ensure consistency and accuracy, you must first generate a detailed system prompt that follows the Before-After-Bridge structure. This prompt will guide you through the sentiment analysis process. After generating the prompt, you must transform it into a JSON format for easier integration into automated systems. This will allow the system to provide clear instructions for sentiment analysis while maintaining continuity and specificity."
+  },
+  {
+    "prompt_id": 6,
+    "generation_timestamp": "2025-10-30T22:11:35.719408",
+    "Before": "I need you to analyze the sentiment of the given text. The task requires you to determine whether the sentiment expressed in the text is negative or positive. You should focus on the emotional tone conveyed through the language used, including words, phrases, and overall context that may indicate a negative or positive outlook.",
+    "After": "Once you have analyzed the sentiment, you must respond with a numerical value: 0 for negative sentiment and 1 for positive sentiment. Your response should be concise and strictly follow this format without any additional explanations or text.",
+    "Bridge": "To ensure consistency and accuracy, you should first generate a detailed system prompt that follows the Before-After-Bridge structure. This prompt will guide the sentiment analysis process. After generating the prompt, you must transform it into a JSON format as specified."
+  },
+  {
+    "prompt_id": 7,
+    "generation_timestamp": "2025-10-30T22:12:43.803883",
+    "Before": "You are tasked with analyzing the sentiment of a given text. The sentiment can be either positive or negative. Your analysis should be based on the emotional tone, attitude, and underlying mood conveyed by the words used in the text. You should consider both explicit and implicit expressions of emotion, such as words related to happiness, sadness, anger, frustration, or hope. The goal is to determine whether the overall sentiment of the text is positive or negative.",
+    "After": "Once you have analyzed the sentiment of the text, you must provide a concise response that indicates the sentiment. If the sentiment is negative, you should respond with '0'; if the sentiment is positive, you should respond with '1'. Your response must be a single digit, and no additional explanation or text should be provided.",
+    "Bridge": "To ensure consistency and accuracy in your analysis, you should follow a structured approach that allows you to systematically evaluate the emotional content of the text. This includes identifying key emotional words, assessing the overall tone, and making a final determination of the sentiment. You must also ensure that your response is clear, concise, and directly aligned with the instructions provided."
+  },
+  {
+    "prompt_id": 8,
+    "generation_timestamp": "2025-10-30T22:13:46.313011",
+    "Before": "I need to analyze the sentiment of the given text. The task requires understanding the emotional tone conveyed by the words used. This involves identifying whether the text expresses a positive, negative, or neutral sentiment. The analysis should be based on the language, context, and emotional cues present in the text.",
+    "After": "Once the sentiment is identified, the response should be a simple numerical value: 0 for negative sentiment and 1 for positive sentiment. Neutral or ambiguous texts may require additional clarification, but for the purpose of this task, I will focus on clear emotional expressions.",
+    "Bridge": "To ensure consistency and accuracy, I will first generate a detailed system prompt that outlines the process of sentiment analysis. This prompt will be structured in a Before-After-Bridge format, providing clear instructions for the analysis. Then, I will transform this prompt into a JSON format for easier processing and execution."
+  },
+  {
+    "prompt_id": 9,
+    "generation_timestamp": "2025-10-30T22:15:06.345295",
+    "Before": "You are tasked with analyzing the sentiment of a given text. Your role is to determine whether the sentiment expressed in the text is negative or positive. You must understand the context, tone, and emotional undertone of the text to make an accurate judgment. You should be aware of the linguistic cues that indicate negative or positive sentiment, such as words related to anger, sadness, frustration, or joy, hope, satisfaction, and optimism.",
+    "After": "Once you have analyzed the sentiment, you must provide a concise response that indicates your conclusion. If the sentiment is negative, you should respond with '0'; if the sentiment is positive, you should respond with '1'. Your response must be strictly numerical and not include any additional text or explanation. This ensures that the output is clear, unambiguous, and suitable for automated processing.",
+    "Bridge": "To ensure consistency and accuracy, you must follow a structured approach. First, read and understand the text thoroughly. Next, identify emotional cues and linguistic patterns that reflect the sentiment. Finally, make a judgment based on the overall tone and content of the text, and respond with the appropriate numerical code."
+  },
+  {
+    "prompt_id": 10,
+    "generation_timestamp": "2025-10-30T22:16:25.841233",
+    "Before": "You are tasked with analyzing the sentiment of a given text. This involves understanding the emotional tone conveyed by the words used, whether it is positive, negative, or neutral. You must focus on the language, tone, and context of the text to determine the sentiment accurately. The analysis should be based on the presence of positive or negative emotions, and the overall attitude expressed by the author.",
+    "After": "Once the sentiment has been identified, you must respond with a numerical value: 0 for negative sentiment and 1 for positive sentiment. This response should be concise and directly reflect the sentiment of the text without any additional explanation. The system must be able to process multiple such prompts in sequence, maintaining consistency and accuracy in sentiment classification.",
+    "Bridge": "To ensure consistency and accuracy, you must first generate a detailed system prompt that outlines the process of sentiment analysis. This prompt should be structured in a Before-After-Bridge format, where 'Before' describes the task, 'After' describes the expected output, and 'Bridge' describes the logical connection between the two. This detailed prompt will then be transformed into a JSON format for automated processing."
+  }
+]

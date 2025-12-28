@@ -1,0 +1,82 @@
+[
+  {
+    "prompt_id": 1,
+    "generation_timestamp": "2025-10-30T22:18:54.326367",
+    "Context": "The task involves analyzing the sentiment of a given text. The sentiment can be either positive or negative. The analysis should be based on the emotional tone conveyed by the text, which may include expressions of joy, anger, sadness, or fear. The text may contain explicit or implicit emotional cues, and the analysis should consider the overall emotional direction of the text.",
+    "Action": "Analyze the sentiment of the provided text by identifying emotional cues, tone, and overall emotional direction. Determine whether the sentiment is positive or negative. Positive sentiment indicates expressions of joy, satisfaction, hope, or optimism, while negative sentiment indicates expressions of sadness, anger, fear, or frustration.",
+    "Result": "A binary classification of the sentiment: 0 for negative and 1 for positive. The result should reflect the overall emotional direction of the text without additional explanations or interpretations.",
+    "Example": "Input text: 'I am so frustrated with this situation. It's been terrible all day.' Output: 0. Input text: 'Today was amazing! Everything went perfectly and I couldn't be happier.' Output: 1."
+  },
+  {
+    "prompt_id": 2,
+    "generation_timestamp": "2025-10-30T22:19:47.702366",
+    "Context": "The task involves analyzing the sentiment of a given text. The sentiment can be either positive or negative. The analysis should focus on understanding the emotional tone conveyed by the text, which may include expressions of joy, anger, sadness, or neutrality. The text may contain subjective language, metaphors, or implicit emotions that need to be interpreted carefully.",
+    "Action": "Analyze the sentiment of the provided text by identifying emotional cues, linguistic patterns, and contextual implications. Determine whether the sentiment expressed is positive or negative based on the presence of emotionally charged words, tone, and overall message.",
+    "Result": "A binary classification of the sentiment: 0 for negative sentiment and 1 for positive sentiment. The result should be concise and directly reflect the sentiment analysis without additional explanations or interpretations.",
+    "Example": "Input text: 'I am so happy today because everything is going smoothly and I feel supported by my friends.' Output: 1. Input text: 'This situation is frustrating and I feel completely ignored.' Output: 0."
+  },
+  {
+    "prompt_id": 3,
+    "generation_timestamp": "2025-10-30T22:20:51.994046",
+    "Context": "The task is to analyze the sentiment of a given text. The sentiment can be either positive or negative. The analysis should be based on the emotional tone conveyed by the words used in the text. Positive sentiment indicates favorable, optimistic, or pleasant emotions, while negative sentiment indicates unfavorable, pessimistic, or unpleasant emotions. The analysis should consider both explicit and implicit emotional cues present in the text.",
+    "Action": "Read the provided text and determine whether the sentiment expressed is positive or negative. Do not provide any explanation, only output the result as a binary value: 1 for positive, 0 for negative. The decision should be based on the overall emotional tone of the text, taking into account words, phrases, and context that may indicate favorable or unfavorable attitudes.",
+    "Result": "A single numerical value (0 or 1) that represents the sentiment of the text. 1 indicates a positive sentiment, 0 indicates a negative sentiment. The result should be based on the emotional tone of the text and not influenced by external factors or subjective interpretations.",
+    "Example": "Input text: 'I am thrilled with the results and the way everything has turned out.' Output: 1. Input text: 'This situation is completely unacceptable and I feel let down.' Output: 0."
+  },
+  {
+    "prompt_id": 4,
+    "generation_timestamp": "2025-10-30T22:21:52.677986",
+    "Context": "The task involves analyzing the sentiment of a given text. The sentiment can be either positive or negative. The analysis should be based on the emotional tone conveyed by the words used in the text, such as expressions of joy, anger, sadness, or fear. The context may include subjective language, sarcasm, or implicit emotional cues that require understanding the overall emotional direction of the text.",
+    "Action": "Determine the sentiment of the text by identifying emotional cues, subjective language, and implicit expressions that indicate either a positive or negative emotional tone. The analysis should consider both explicit and implicit expressions of emotion, and the overall direction of the sentiment should be classified as either positive or negative.",
+    "Result": "A classification of the sentiment as either positive (1) or negative (0), based on the emotional tone of the text. The result should be a single numerical value that represents the sentiment polarity of the text, without any additional explanation or reasoning.",
+    "Example": "Text: 'This movie was absolutely terrible. I hated every moment of it.' Sentiment: 0. Text: 'The best day of my life! I'm so happy and excited.' Sentiment: 1."
+  },
+  {
+    "prompt_id": 5,
+    "generation_timestamp": "2025-10-30T22:22:53.782540",
+    "Context": "The task involves analyzing the sentiment of a given text, which can be either positive or negative. The text may contain emotional expressions, subjective language, or implicit attitudes towards a subject, event, or situation. The sentiment analysis should consider both explicit and implicit cues, such as words with positive or negative connotations, intensifiers, and contextual implications.",
+    "Action": "Determine the sentiment of the text by identifying whether it conveys a positive or negative emotional tone. This includes evaluating the presence of emotionally charged words, the overall attitude expressed, and the potential underlying emotions such as joy, anger, sadness, or fear. The analysis should be based purely on the content of the text without incorporating external knowledge or assumptions.",
+    "Result": "A binary classification of the sentiment: 0 for negative sentiment, 1 for positive sentiment. The result should be derived solely from the analysis of the text's emotional content and should not be influenced by external factors or contextual information beyond what is provided in the text.",
+    "Example": "Given the text 'I am so happy today, everything is going well!', the sentiment is positive. Given the text 'This situation is terrible and I feel completely overwhelmed', the sentiment is negative."
+  },
+  {
+    "prompt_id": 6,
+    "generation_timestamp": "2025-10-30T22:24:07.904238",
+    "Context": "The task involves analyzing the sentiment of a given text. The sentiment can be either positive or negative. The analysis should be based on the emotional tone conveyed by the text, which may include explicit expressions of emotion, implicit emotional cues, or subjective language. The context may include reviews, social media posts, customer feedback, or any text that reflects an individual's emotional state or attitude towards a subject.",
+    "Action": "Analyze the sentiment of the provided text. Determine whether the sentiment is positive or negative. Positive sentiment indicates favorable, optimistic, or appreciative language, while negative sentiment indicates unfavorable, pessimistic, or critical language. The analysis should consider both explicit and implicit emotional cues, such as words, phrases, or grammatical structures that convey emotional direction.",
+    "Result": "A binary classification of the sentiment: 0 for negative sentiment, 1 for positive sentiment. The result should be based solely on the sentiment analysis of the text and not influenced by external factors, context, or subjective interpretation beyond the emotional tone conveyed in the text.",
+    "Example": "Input text: 'I absolutely love this product! It exceeded my expectations in every way.' Output: 1. Explanation: The text contains explicit positive language ('love', 'exceeded my expectations') indicating a positive sentiment. Input text: 'This was the worst experience I have ever had. I will never use this service again.' Output: 0. Explanation: The text contains strong negative language ('worst experience', 'never use this service again') indicating a negative sentiment."
+  },
+  {
+    "prompt_id": 7,
+    "generation_timestamp": "2025-10-30T22:25:15.672678",
+    "Context": "The task involves analyzing the sentiment of a given text. The sentiment can be either positive or negative. The analysis should be based on the emotional tone conveyed by the text, considering words, phrases, and overall tone that indicate a positive or negative sentiment. The text may contain subjective language, emotional expressions, or implicit attitudes that need to be interpreted.",
+    "Action": "Analyze the sentiment of the provided text. Determine whether the sentiment is positive or negative. The analysis should consider both explicit and implicit emotional cues, such as positive or negative words, sentence structure, and context. The response should be a single binary value: 1 for positive sentiment, 0 for negative sentiment.",
+    "Result": "A binary value (0 or 1) indicating the sentiment of the text. 0 represents negative sentiment, 1 represents positive sentiment. The result should be based on a thorough analysis of the text's emotional tone and language.",
+    "Example": "Input text: 'I absolutely love this product! It exceeded my expectations and made my day.' Output: 1. Explanation: The text contains positive words like 'love', 'exceeded', 'made my day', indicating a positive sentiment. Input text: 'This was the worst experience. I will never use this service again.' Output: 0. Explanation: The text contains negative words like 'worst', 'never use', indicating a negative sentiment."
+  },
+  {
+    "prompt_id": 8,
+    "generation_timestamp": "2025-10-30T22:26:13.099655",
+    "Context": "The task involves analyzing the sentiment of a given text. The sentiment can be either positive or negative. The analysis should be based on the emotional tone conveyed by the words used in the text, such as expressions of joy, anger, sadness, or fear. The context may include subjective language, sarcasm, or implicit emotional cues that require understanding of the underlying emotional state.",
+    "Action": "Determine the sentiment of the provided text by examining the emotional tone, linguistic patterns, and contextual implications. The analysis should consider both explicit and implicit expressions of emotion, and classify the sentiment as either positive or negative. If the sentiment is negative, respond with 0; if it is positive, respond with 1.",
+    "Result": "A single numerical output (0 for negative, 1 for positive) representing the sentiment of the text. The result should be based on a thorough analysis of the emotional content, without additional explanations or text.",
+    "Example": "Input text: 'I am so happy today, everything is going well!' → Output: 1. Input text: 'This situation is frustrating and I feel completely powerless.' → Output: 0."
+  },
+  {
+    "prompt_id": 9,
+    "generation_timestamp": "2025-10-30T22:27:23.472289",
+    "Context": "The task is to analyze the sentiment of a given text. The sentiment can be positive or negative. The analysis should be based on the emotional tone conveyed by the words and phrases used in the text. Positive sentiment indicates approval, satisfaction, optimism, or pleasant emotions, while negative sentiment indicates disapproval, dissatisfaction, pessimism, or unpleasant emotions. The analysis must consider the overall tone of the text, even if it contains some neutral or mixed elements.",
+    "Action": "Read the text carefully, identify emotional cues, and determine whether the sentiment is positive or negative. If the sentiment is positive, respond with 1; if the sentiment is negative, respond with 0. Do not provide any additional explanation or reasoning, only the numerical response. Ensure that the analysis is consistent and accurate, even if the text is ambiguous or contains sarcasm.",
+    "Result": "A numerical response (0 for negative, 1 for positive) that accurately reflects the sentiment of the text. The response must be concise and directly indicate the sentiment without any additional information or explanation.",
+    "Example": "Text: 'I am so happy today, everything is going well!' -> Sentiment: Positive (1). Text: 'This is the worst day of my life.' -> Sentiment: Negative (0). Text: 'The weather is unpredictable, but I'm ready for anything.' -> Sentiment: Neutral (but should be treated as neutral, though the prompt only asks for positive or negative)."
+  },
+  {
+    "prompt_id": 10,
+    "generation_timestamp": "2025-10-30T22:29:09.066776",
+    "Context": "The task is to analyze the sentiment of a given text. The sentiment can be either positive or negative. The analysis should be based on the emotional tone conveyed by the text, considering words and phrases that indicate positive or negative emotions, attitudes, or evaluations. The text may contain subjective expressions, sarcasm, or implicit meanings that need to be interpreted carefully.",
+    "Action": "Analyze the sentiment of the provided text by identifying emotional cues, linguistic patterns, and contextual implications that indicate a positive or negative sentiment. The analysis should be conducted with attention to detail, ensuring that the interpretation is accurate and consistent with standard sentiment analysis conventions.",
+    "Result": "A binary classification of the sentiment: 0 for negative and 1 for positive. The result should be based solely on the sentiment analysis of the text, without any external context or assumptions. The output must be a single integer, either 0 or 1, representing the sentiment polarity of the text.",
+    "Example": "If the text is 'I love this product, it works perfectly and meets all my expectations!', the sentiment is positive, so the result should be 1. If the text is 'This is the worst experience I have ever had, everything failed and I am extremely disappointed!', the sentiment is negative, so the result should be 0."
+  }
+]

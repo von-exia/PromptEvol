@@ -1,0 +1,5 @@
+{
+  "Task": "Evaluate the text for positive, negative, or neutral sentiment based on linguistic cues, context, and emotional valence.",
+  "Action": "Analyze the sentiment of the text by identifying emotional tone and attitude conveyed by the author.",
+  "Goal": "Determine whether the sentiment of the text is negative (respond with 0) or positive (respond with 1)."
+}

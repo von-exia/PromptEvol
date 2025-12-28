@@ -1,0 +1,102 @@
+<svg width="850" height="650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <style>
+    .box { fill: #f0f8ff; stroke: #4682b4; stroke-width: 2; rx: 8; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #2e4057; }
+    .content { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+    .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    .note { font-family: Arial, sans-serif; font-size: 10px; fill: #666; font-style: italic; }
+  </style>
+  
+  <!-- Define arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- Main title -->
+  <text x="425" y="40" text-anchor="middle" class="title">PromptEvol Framework Architecture</text>
+
+  <!-- Environment Module -->
+  <rect x="40" y="60" width="350" height="220" class="box"/>
+  <text x="215" y="85" text-anchor="middle" class="title">Environment</text>
+  <text x="50" y="110" class="content">• BaseEnvironment (Abstract Base Class)</text>
+  <text x="50" y="125" class="content">• SentimentAnalysisEnvironment</text>
+  <text x="50" y="150" class="content">Core Functions:</text>
+  <text x="60" y="165" class="content">- evolution() - Execute evolution process</text>
+  <text x="60" y="180" class="content">- evaluate_generation() - Evaluate population</text>
+  <text x="60" y="195" class="content">- evolution_step() - Single evolution step</text>
+  <text x="60" y="210" class="content">- Clustered evaluation (K-means)</text>
+  <text x="60" y="225" class="content">- Weak supervision scoring</text>
+  <text x="60" y="240" class="content">- Hierarchical importance sorting</text>
+  <text x="60" y="255" class="content">- Remove duplicate individuals</text>
+
+  <!-- Behaviour Module -->
+  <rect x="460" y="60" width="350" height="190" class="box"/>
+  <text x="635" y="85" text-anchor="middle" class="title">Behaviour</text>
+  <text x="470" y="110" class="content">• BaseEvolBehaviour (Abstract Base Class)</text>
+  <text x="470" y="125" class="content">• CrossOver - Crossover operations</text>
+  <text x="470" y="140" class="content">• Mutation - Mutation operations</text>
+  <text x="470" y="155" class="content">• Shuffle - Reorganization operations</text>
+  <text x="470" y="170" class="content">• BestIndivGuidedCrossOver</text>
+  <text x="470" y="185" class="content">• BestIndivGuidedMutation</text>
+  <text x="470" y="210" class="content">Core Method: perform()</text>
+  <text x="470" y="225" class="content">Each behaviour implements specific</text>
+  <text x="470" y="240" class="content">evolution operation with probability p</text>
+
+  <!-- Performer Module -->
+  <rect x="460" y="270" width="350" height="170" class="box"/>
+  <text x="635" y="295" text-anchor="middle" class="title">Performer</text>
+  <text x="470" y="320" class="content">• BaseEvolBehaviourPerformer (Abstract Base Class)</text>
+  <text x="470" y="335" class="content">• SeqEvolBehaviourPerformer</text>
+  <text x="470" y="350" class="content">• OneofEvolBehaviourPerformer</text>
+  <text x="470" y="365" class="content">• TermiteEvolBehaviourPerformer</text>
+  <text x="470" y="390" class="content">Core Functions:</text>
+  <text x="480" y="405" class="content">- Combines multiple Behaviour operations</text>
+  <text x="480" y="420" class="content">- Implements different evolution strategies</text>
+  <text x="480" y="435" class="content">- Handles operation execution sequence</text>
+
+  <!-- Individual Module -->
+  <rect x="40" y="300" width="350" height="100" class="box"/>
+  <text x="215" y="325" text-anchor="middle" class="title">Individual</text>
+  <text x="50" y="350" class="content">Attributes:</text>
+  <text x="60" y="365" class="content">- json_dict - Prompt structure dictionary</text>
+  <text x="60" y="380" class="content">- score - Fitness score</text>
+  <text x="60" y="395" class="content">- evaled - Evaluation status flag</text>
+
+  <!-- Evolution Process Module -->
+  <rect x="40" y="450" width="770" height="100" class="box"/>
+  <text x="425" y="475" text-anchor="middle" class="title">Evolution Process (evol.py)</text>
+  <text x="50" y="500" class="content">1. Initialize population (GenerationLoader)</text>
+  <text x="50" y="515" class="content">2. Select evolution strategy (Performer)</text>
+  <text x="50" y="530" class="content">3. Multiple evolution iterations (epochs)</text>
+  <text x="350" y="500" class="content">4. Environment evaluation and selection</text>
+  <text x="350" y="515" class="content">5. Save best individuals to JSON</text>
+  <text x="600" y="500" class="content">6. Clustered evaluation acceleration</text>
+  <text x="600" y="515" class="content">7. Weak supervision scoring</text>
+  <text x="600" y="530" class="content">8. Random seed control</text>
+
+  <!-- Relationship arrows -->
+  <!-- Environment uses Performer -->
+  <line x1="390" y1="200" x2="460" y2="270" class="arrow"/>
+  <text x="425" y="225" text-anchor="middle" class="note">uses</text>
+  
+  <!-- Performer composes Behaviour -->
+  <line x1="635" y1="250" x2="635" y2="270" class="arrow"/>
+  <text x="655" y="260" text-anchor="start" class="note">composes</text>
+  
+  <!-- Environment operates on Individual -->
+  <line x1="215" y1="280" x2="215" y2="300" class="arrow"/>
+  <text x="235" y="290" text-anchor="start" class="note">operates on</text>
+  
+  <!-- Performer operates on Individual (centered, between boxes) -->
+  <line x1="460" y1="350" x2="390" y2="350" class="arrow"/>
+  <text x="425" y="340" text-anchor="middle" class="note">operates on</text>
+
+
+  <!-- Environment stores best individual -->
+  <line x1="215" y1="400" x2="215" y2="450" class="arrow"/>
+  <text x="235" y="420" text-anchor="start" class="note">stores best</text>
+
+</svg>

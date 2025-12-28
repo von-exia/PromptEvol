@@ -1,0 +1,82 @@
+[
+  {
+    "prompt_id": 1,
+    "generation_timestamp": "2025-10-30T22:31:24.526491",
+    "Role": "To analyze the sentiment of a given text and determine whether it is positive or negative based on the emotional tone and linguistic cues present in the text.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes, which can be used to infer the sentiment of the text.",
+    "Steps": "1. Identify emotional keywords or phrases that indicate positive or negative sentiment. 2. Analyze the context and tone of the text to determine the overall sentiment. 3. Consider the use of sarcasm, irony, or ambiguity that may affect the interpretation of sentiment. 4. Determine whether the sentiment is predominantly positive or negative based on the analysis.",
+    "Expectation": "A binary response indicating the sentiment of the text: 0 for negative sentiment, 1 for positive sentiment."
+  },
+  {
+    "prompt_id": 2,
+    "generation_timestamp": "2025-10-30T22:32:34.415675",
+    "Role": "To analyze the sentiment of the given text and determine whether it conveys a positive or negative sentiment.",
+    "Input": "A piece of text that may contain emotional or subjective language, which needs to be evaluated for its sentiment polarity.",
+    "Steps": "1. Identify emotional words or phrases in the text. 2. Determine if the sentiment is positive or negative based on the emotional tone. 3. Consider the context to ensure accurate interpretation. 4. Provide a binary response indicating the sentiment polarity.",
+    "Expectation": "A binary response (0 for negative, 1 for positive) that accurately reflects the sentiment of the text."
+  },
+  {
+    "prompt_id": 3,
+    "generation_timestamp": "2025-10-30T22:33:46.922569",
+    "Role": "To analyze the sentiment of a given text and determine whether it is positive or negative based on the emotional tone and linguistic cues present in the text.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes, which can be used to infer the sentiment of the text.",
+    "Steps": "1. Identify emotional words or phrases that indicate positive or negative sentiment. 2. Analyze the context and tone of the text to determine the overall sentiment. 3. Consider the use of sarcasm, irony, or ambiguity that may affect the sentiment interpretation. 4. Determine whether the sentiment is positive (indicating satisfaction, approval, hope, or optimism) or negative (indicating dissatisfaction, criticism, fear, or pessimism).",
+    "Expectation": "A binary response indicating the sentiment of the text: 0 for negative sentiment, 1 for positive sentiment."
+  },
+  {
+    "prompt_id": 4,
+    "generation_timestamp": "2025-10-30T22:35:10.209448",
+    "Role": "To analyze the sentiment of a given text and determine whether it is positive or negative based on the emotional tone and linguistic cues present in the text.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes, which can be used to infer the sentiment of the text.",
+    "Steps": "1. Identify emotional keywords or phrases that indicate positive or negative sentiment. 2. Analyze the context and tone of the text to determine the overall sentiment. 3. Consider the use of sarcasm, irony, or ambiguity that may affect the interpretation. 4. Evaluate the intensity of the sentiment based on the language used. 5. Provide a binary classification: 0 for negative sentiment, 1 for positive sentiment.",
+    "Expectation": "A binary output (0 or 1) that represents the sentiment of the text, where 0 indicates negative sentiment and 1 indicates positive sentiment."
+  },
+  {
+    "prompt_id": 5,
+    "generation_timestamp": "2025-10-30T22:36:23.770807",
+    "Role": "To analyze the sentiment of a given text and determine whether it is positive or negative based on the emotional tone and linguistic cues present in the text.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes, which can be used to infer the sentiment of the author or speaker.",
+    "Steps": "1. Identify emotional keywords or phrases that convey positive or negative sentiment. 2. Analyze the context and tone of the text to determine the overall sentiment. 3. Consider the use of sarcasm, irony, or ambiguity that may affect the interpretation. 4. Determine whether the sentiment is predominantly positive or negative based on the analysis.",
+    "Expectation": "A binary response indicating the sentiment of the text: 0 for negative sentiment, 1 for positive sentiment."
+  },
+  {
+    "prompt_id": 6,
+    "generation_timestamp": "2025-10-30T22:37:18.038832",
+    "Role": "To analyze the sentiment of the given text and determine whether it conveys a positive or negative emotion.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes. The text can be of any length and may include explicit or implicit references to emotions, opinions, or experiences.",
+    "Steps": "1. Identify emotional keywords or phrases in the text. 2. Determine the overall emotional tone of the text. 3. Assess whether the sentiment is positive or negative based on the presence of positive or negative language. 4. Provide a binary response indicating the sentiment: 1 for positive, 0 for negative.",
+    "Expectation": "A single numerical response (0 or 1) that accurately reflects the sentiment of the text. The response should be based on a thorough analysis of the emotional content and tone of the text."
+  },
+  {
+    "prompt_id": 7,
+    "generation_timestamp": "2025-10-30T22:38:40.228670",
+    "Role": "To analyze the sentiment of the given text and determine whether it conveys a positive or negative sentiment. The system must understand the emotional tone of the text and classify it accordingly.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes. The text can be in any language, but the analysis must be based on the emotional valence conveyed through words, phrases, or context.",
+    "Steps": "1. Identify emotional keywords or phrases that indicate positive or negative sentiment. 2. Analyze the context and tone of the text to determine the overall sentiment. 3. Consider the intensity of the sentiment based on the language used. 4. Classify the sentiment as positive or negative based on the analysis.",
+    "Expectation": "The system should accurately classify the sentiment of the text as either positive (1) or negative (0), based on the emotional tone and language used. It should be able to handle ambiguous or neutral texts by making a best-guess classification."
+  },
+  {
+    "prompt_id": 8,
+    "generation_timestamp": "2025-10-30T22:39:35.198184",
+    "Role": "To analyze the sentiment of the given text and determine whether it conveys a positive or negative emotion.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes towards a subject or event.",
+    "Steps": "1. Identify emotional keywords or phrases that indicate positive or negative sentiment. 2. Analyze the context and tone of the text to understand the underlying emotion. 3. Determine if the sentiment is positive (indicating satisfaction, approval, hope, or optimism) or negative (indicating dissatisfaction, criticism, fear, or pessimism). 4. Provide a binary response based on the sentiment analysis: 1 for positive, 0 for negative.",
+    "Expectation": "A single numerical response (0 or 1) that accurately reflects the sentiment of the text, with 1 indicating positive sentiment and 0 indicating negative sentiment."
+  },
+  {
+    "prompt_id": 9,
+    "generation_timestamp": "2025-10-30T22:40:56.812895",
+    "Role": "To analyze the sentiment of a given text and determine whether it is positive or negative based on the emotional tone and linguistic cues present in the text.",
+    "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes, which can be used to infer the sentiment of the text.",
+    "Steps": "1. Identify emotional keywords or phrases that indicate positive or negative sentiment. 2. Analyze the context and tone of the text to determine the overall sentiment. 3. Consider the use of sarcasm, irony, or ambiguity that may affect the sentiment interpretation. 4. Determine whether the sentiment is predominantly positive or negative based on the analysis.",
+    "Expectation": "A binary response indicating the sentiment of the text: 0 for negative sentiment, 1 for positive sentiment."
+  },
+  {
+    "prompt_id": 10,
+    "generation_timestamp": "2025-10-30T22:42:09.917988",
+    "Role": "To analyze the sentiment of the given text and determine whether it conveys a positive or negative emotion.",
+    "Input": "A text string that may contain emotional expressions, subjective language, or contextual cues that indicate the sentiment of the text.",
+    "Steps": "1. Identify emotional keywords or phrases in the text. 2. Determine the overall emotional tone of the text. 3. Assess whether the sentiment is positive or negative based on the presence of positive or negative words, phrases, or context. 4. Provide a binary response indicating the sentiment: 1 for positive, 0 for negative.",
+    "Expectation": "A single numerical response (0 or 1) that accurately reflects the sentiment of the input text, with 1 indicating a positive sentiment and 0 indicating a negative sentiment."
+  }
+]

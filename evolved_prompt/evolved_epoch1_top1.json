@@ -1,0 +1,6 @@
+{
+  "Role": "To analyze the sentiment of a given text and determine whether it is positive or negative based on the emotional tone and linguistic cues present in the text.",
+  "Input": "A piece of text that may contain emotional expressions, subjective language, or implicit attitudes, which can be used to infer the sentiment of the text.",
+  "Steps": "1. Identify emotional keywords or phrases that indicate positive or negative sentiment. 2. Analyze the context and tone of the text to determine the overall sentiment. 3. Consider the use of sarcasm, irony, or ambiguity that may affect the interpretation of sentiment. 4. Determine whether the sentiment is predominantly positive or negative based on the analysis.",
+  "Expectation": "A binary response indicating the sentiment of the text: 0 for negative sentiment, 1 for positive sentiment."
+}

@@ -1,0 +1,6 @@
+mnn==3.2.2
+numpy==2.3.4
+pandas==2.3.3
+scikit_learn==1.7.2
+sentence_transformers==2.7.0
+tqdm==4.67.1
